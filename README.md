@@ -1,6 +1,6 @@
 # Modo Oscuro/Claro
 
-<p align="justify">Este es un simple programa que permite a los usuarios cambiar entre el modo oscuro y claro en una página web. El programa está escrito en HTML, CSS y JavaScript, y utiliza Bootstrap para el diseño y jQuery para la funcionalidad.</p>
+<p align="justify">Este es un simple programa que permite a los usuarios cambiar entre el modo oscuro y claro en una página web. El programa está escrito en HTML y utiliza Bootstrap para el diseño y jQuery para la funcionalidad.</p>
 
 ## Funcionalidad
 
