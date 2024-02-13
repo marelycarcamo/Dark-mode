@@ -4,10 +4,18 @@ When that element is clicked, the code retrieves the "html" element using the jQ
 value is "dark", it sets the "theme" variable to "light", otherwise it sets it to "dark". Finally,
 it sets the "data-bs-theme" attribute of the "html" element to the value of the "theme" variable.
 This code is likely used to toggle between a light and dark theme on a website. */
+
+
+
 $(document).ready(function() {
-    $("#bt-modo-oscuro").click(function() {
-        var html = $("html");
-        var theme = html.attr("data-bs-theme") === "dark" ? "light" : "dark";
-        html.attr("data-bs-theme", theme);
+    $('#id-light').click(function() {
+        $('html').attr('data-bs-theme', 'light');
+        $('.dropdown-toggle').html('<i class="fas fa-moon"></i>');
+    });
+
+    $('#id-dark').click(function() {
+        $('html').attr('data-bs-theme', 'dark');
+        $('.dropdown-toggle').html('<i class="fas fa-sun"></i>');
     });
 });
+
